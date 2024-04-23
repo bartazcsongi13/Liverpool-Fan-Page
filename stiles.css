@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    background: red;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: whitesmoke;
+}
+
+figure {
+    padding: 1px;
+}
+
+figure img {
+    width: 100px;
+}
+
+nav .menu-principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu-principal li  {
+    margin: 0px 30px;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+nav .menu-principal li a {
+  text-decoration: none ;
+  color: whitesmoke;
+}
+
+section .hatterkep  {
+    width: 100%;
+    overflow: hidden;
+}
+
+section .hatterkep img  {
+    width: 100%;
+    margin-bottom: 5px ;
+}
+
+section .szovegdoboz {
+    position: relative;
+    top: 0px;
+    width: 95%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background: plum;
+    border:2px blueviolet;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.informaciok p {
+    font-size: 1rem;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.informaciok #szerzo1 , .informaciok #szerzo2 {
+    color: plum ;
+    text-decoration: underline solid  ;
+} 
+
+footer {
+    background: rgb(230, 7, 7);
+}
+
+.sponzors img {
+    width: 250px;
+}
+
+.sponzors ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espicifidad</title>
+    <style>
+        header h1  span { /*Especifidad 1+1+1=3 */
+            background: whitesmoke;
+            text-transform: lowercase;
+        }
+
+        .title {
+            background: white;
+            text-transform: uppercase;  /*Especifidad 10*/
+        }
+
+        *  {
+            background: blue !important;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="title">Welcome</span> to my class
+        </h1>
+    </header>
+</body>
+</html>
